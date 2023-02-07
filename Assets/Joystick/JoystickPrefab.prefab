@@ -355,7 +355,6 @@ GameObject:
   - component: {fileID: 9101763540981274649}
   - component: {fileID: 3816039547157159901}
   - component: {fileID: 2050906356467104871}
-  - component: {fileID: 923852925}
   - component: {fileID: 1964729684629225087}
   - component: {fileID: 9158958684978563827}
   m_Layer: 0
@@ -589,21 +588,6 @@ MonoBehaviour:
   proximityType: 3
   constraintOnMovement: 3
   useLocalSpaceForConstraint: 0
---- !u!114 &923852925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5706572166712672382}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4f6dc4450686df49916e0c400d874c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  handType: 3
-  proximityType: 3
-  constraintTransform: {fileID: 5706572168053269086}
 --- !u!114 &1964729684629225087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -611,7 +595,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5706572166712672382}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b3e6359c9750ad4fb8a05c9b8704d7b, type: 3}
   m_Name: 
@@ -635,7 +619,7 @@ MonoBehaviour:
   autoConstraintSelection: 1
   selectedConstraints:
   - {fileID: 2050906356467104871}
-  - {fileID: 923852925}
+  - {fileID: 0}
   - {fileID: 1964729684629225087}
 --- !u!1 &5706572167046604150
 GameObject:
